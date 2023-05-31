@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+  margin: 0;
+  box-sizing: border-box;
+
+  --light-gray: hsl(212, 45%, 89%);
+  --gray-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  font-family: overpass, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--light-gray);
+  
+}
+
+.App {
+  width: 240px;
+  height: 380px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+
+}
+
+.qr {
+  background-image: url('./images/image-qr-code.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 220px;
+  width: 220px;
+  margin: 0.75rem;  
+}
+
+.qr-card {
+  text-align: center;
+  margin: 1rem
+}
+
+.font-heading {
+  color: var(--dark-blue);
+}
+
+.qr-content {
+  font-size: 12px;
+  color: var(--gray-blue);
+}
+
+
+
